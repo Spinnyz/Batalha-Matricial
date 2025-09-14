@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batalha Matricial </title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="https://i.pinimg.com/736x/ea/c2/b7/eac2b7844ad390cd510dc94bb4e7a7ab.jpg" type="image/x-icon">
+
+</head>
+<body>
+<div class="container">
+    <video src="Vídeo_Pronto_com_Movimentação_Aleatória.mp4" autoplay muted loop id="bg-video"></video>
+
+    <div class="mapa">
+        <div class="cpu-linha"></div>
+        <div class="mensagem"></div>
+
+
+        <div class="matriz-display">
+            <pre id="matriz1"></pre>
+            <pre id="matriz2"></pre>
+        </div>
+
+        <div class="player-cards">
+        
+
+        <div class="titulo">
+            <h1>🤖 Batalha Matricial</h1>
+            <h2>Desafie Nuarte em uma batalha de matrizes!</h2>
+            <p>Clique na carta no canto superior direito para começar</p>
+        </div>
+        
+        </div>
+        
+        <div class="input-container">
+            <input type="text" class="input" id="resposta" placeholder="Digite o resultado">
+            <button id="enviar">Enviar</button>
+        </div>
+        <div class="operacoes">
+            <button class="op-btn" data-op="+">+</button>
+            <button class="op-btn" data-op="-">-</button>
+            <button class="op-btn" data-op="*">*</button>
+            <button class="op-btn" data-op="det">det</button>
+        </div>
+
+        <div class="cart">
+        <p>10</p>
+        </div>
+        
+        <div class="nuarte">
+            <p>🤖 Nuarte</p>
+            <p>Vida: 100</p>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
