@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const matriz1El = document.getElementById('matriz1');
     const matriz2El = document.getElementById('matriz2');
     const mensagemEl = document.querySelector('.mensagem');
-    const vidaEl = document.querySelector('.nuarte p:nth-child(2)');
+    const vidaEl = document.querySelector('.kalli p:nth-child(2)');
     const opBtns = document.querySelectorAll('.op-btn');
     const respostaInput = document.getElementById('resposta');
     const enviarBtn = document.getElementById('enviar');
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 vida = Math.max(0, vida);
                 vidaEl.textContent = `Vida: ${vida}`;
             } else {
-                mostrarMensagem(`Tu errou! Resultado correto: ${resultado.join(', ')}`, 'erro');
+                mostrarMensagem(`Errado! Resultado correto: ${resultado.join(', ')}`, 'erro');
             }
 
             cartaAtual++;
@@ -279,9 +279,9 @@ document.addEventListener('DOMContentLoaded', function() {
             opBtns.forEach(btn => btn.style.display = 'none');
 
             if (vida <= 0) {
-                mostrarMensagem('Nuarte foi derrotado! Você venceu! 🎉', 'vitoria');
+                mostrarMensagem('kalli foi derrotado! Você venceu! 🎉', 'vitoria');
             } else {
-                mostrarMensagem('Fim das cartas! Nuarte sobreviveu! 💀', 'derrota - 1000 de aura');
+                mostrarMensagem('Fim das cartas! kalli sobreviveu! 💀', 'derrota - 1000 de aura');
             }
         } catch (error) {
             console.error('Erro ao finalizar jogo:', error);
