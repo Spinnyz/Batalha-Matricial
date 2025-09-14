@@ -1,4 +1,9 @@
-/* Reset e Fontes */
+PPPP   OOOO  L      ÍÍÍÍ   GGGG   OOOO   N   N   OOOO
+P   P O    O L       II   G      O    O  NN  N  O    O
+PPPP  O    O L       II   G  GG  O    O  N N N  O    O
+P     O    O L       II   G   G  O    O  N  NN  O    O
+P      OOOO  LLLL   ÍÍÍÍ   GGGG   OOOO   N   N   OOOO
+
 * {
     margin: 0; 
     padding: 0; 
@@ -10,7 +15,6 @@ body, html {
     height: 100%;
 }
 
-/* Container principal */
 .container {
     position: relative; 
     display: flex; 
@@ -20,7 +24,6 @@ body, html {
     height: 100%;
 }
 
-/* Vídeo de fundo */
 #bg-video {
     position: fixed;
     top: 50%;
@@ -34,7 +37,6 @@ body, html {
     filter: brightness(0.6);
 }
 
-/* Mapa do jogo */
 .mapa {
     background: linear-gradient(180deg, #0d0d2b, #1a1a40, #000000);
     border: 3px solid #ffffff;
@@ -51,14 +53,12 @@ body, html {
     padding: 20px;
 }
 
-/* Título do jogo */
 .titulo {
     text-align: center;
     color: white;
     margin-bottom: 20px;
 }
 
-/* Display das matrizes */
 .matriz-display {
     display: flex;
     gap: 20px; 
@@ -78,7 +78,6 @@ body, html {
     background: linear-gradient(180deg, #0d0d2b, #1a1a40, #000000);
 }
 
-/* Mensagem de feedback */
 .mensagem {
     color: white;
     font-size: 18px;
@@ -91,7 +90,6 @@ body, html {
 .mensagem.vitoria { color: #00ffcc; font-weight: bold; font-size: 22px; }
 .mensagem.derrota { color: #ff6600; font-weight: bold; font-size: 22px; }
 
-/* Input e botão enviar */
 .input-container {
     display: flex;
     gap: 10px;
@@ -126,7 +124,6 @@ body, html {
     transition: 0.5s;
 }
 
-/* Botões de operação */
 .operacoes {
     display: flex;
     gap: 10px;
@@ -148,7 +145,6 @@ body, html {
     box-shadow: 0 0 15px 5px rgba(14, 87, 14, 0.8);
 }
 
-/* Carta do jogador */
 .cart {
     position: absolute;
     top: 20px;
@@ -173,7 +169,6 @@ body, html {
     transition: 0.5s;
 }
 
-/* Vida do robô */
 .nuarte {
     position: absolute;
     top: 20px;
