@@ -231,7 +231,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     resultado = multiplicar(m1, m2);
                     break;
                 case 'det':
-                    resultado = [determinante(m1)];
+                    // Soma dos determinantes das duas matrizes
+                    const det1 = determinante(m1);
+                    const det2 = determinante(m2);
+                    resultado = [det1 + det2];
                     break;
                 default:
                     throw new Error('Operação inválida');
